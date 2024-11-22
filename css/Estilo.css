@@ -1,29 +1,83 @@
-h4 {
-    display: flex; /* Activa flexbox para organizar el contenido */
-    align-items: center; /* Centra verticalmente texto e íconos */
-    justify-content: space-between; /* Separa el texto y los íconos */
-    color: #ffffff;
-    background-color: #60b3e0d9;
-    font-size: 18px; /* Tamaño del texto */
-    font-weight: 300; /* Hace las letras delgadas */
-    width: 1510px;
+
+#Inicio {
+    background-image: url('../imagenes/Imagen5.jpg'); 
+    background-size: 100% 80%; /* Imagen cubriendo el 50% del ancho y 50% de la altura */
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-size: cover; /* Asegura que la imagen de fondo cubra todo el contenedor */
+    align-items: center; /* Centra el contenido verticalmente */
+    margin: 0;
+    height: 100vh; 
+    opacity: 70%;
+    display: flex; /* Activa el uso de flexbox */
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+
+
+#centro {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espaciado interno */
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semi-transparente para mejorar visibilidad */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+#centro img {
+    max-width: 100%; /* Asegura que la imagen sea responsiva */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 20px; /* Espacio entre la imagen y el botón */
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #60b3e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Añadimos espacio por encima del botón */
+}
+
+input[type="submit"]:hover {
+    background-color: #4a92c1;
+}
+
+
+footer {
+    display: flex; /* Usamos flexbox para alinear los elementos */
+    justify-content: space-around; /* Distribuye los elementos de manera uniforme */
+    align-items: center; /* Alinea los elementos verticalmente */
+    background-color: #f8f8f8; /* Fondo suave para el pie de página */
+    padding: 30px 0; /* Espaciado arriba y abajo */
+    margin-top: 50px; /* Espacio entre el contenido principal y el pie de página */
+}
+
+footer .contact {
+    text-align: center; /* Centra los textos dentro de cada div */
+    max-width: 300px; /* Define un tamaño máximo para cada columna */
+}
+
+footer .contact img {
+    width: 50px; /* Tamaño fijo para las imágenes */
     height: 50px;
-    padding: 0 20px; /* Espaciado interno */
-    box-sizing: border-box; /* Incluye padding en las dimensiones */
-
-
-.social-icons {
-    margin-left: auto; /* Empuja los íconos completamente a la derecha */
+    margin-bottom: 10px; /* Espacio debajo de la imagen */
 }
 
-.social-icons a {
-    color: #ffffff; /* Color de los íconos */
-    font-size: 20px; /* Tamaño de los íconos */
-    margin-left: 15px; /* Espaciado entre los íconos */
-    text-decoration: none;
+footer .contact p {
+    margin: 5px 0; /* Añade un pequeño margen entre los párrafos */
 }
 
-.social-icons a:hover {
-    color: #ffd700; /* Cambia el color al pasar el mouse */
+footer .contact a {
+    color: #0b0c0c; /* Color del enlace */
+    text-decoration: none; /* Elimina el subrayado */
+    font-weight: bold;
 }
 
+footer .contact a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el ratón */
+}
