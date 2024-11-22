@@ -1,0 +1,109 @@
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #60b3e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Añadimos espacio por encima del botón */
+}
+
+input[type="submit"]:hover {
+    background-color: #4a92c1;
+}
+
+
+.container {
+    display: flex; /* Utiliza Flexbox para alinear los elementos */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: flex-start; /* Alinea los elementos al inicio */
+}
+
+.Familias {
+    flex: 1; /* Permite que la sección ocupe el espacio disponible */
+    margin-right: 20px; /* Espacio entre la sección y la imagen */
+}
+
+.imagen {
+    /*flex: 0 0 auto; /* Mantiene el tamaño de la imagen */
+    width: 450px;
+    height: 480px;
+    margin-top: 10%;
+    border: 15px solid #a8cce4;
+    border-radius: 10px;
+}
+
+.title{
+    position: relative; /* Necesario para que podamos poner el texto sobre la imagen */
+    background-image: url('../imagenes/foodserv.jpeg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el área del título */
+    background-position: center; /* Centra la imagen dentro del área del título */
+    color: rgb(241, 234, 234); /* Color del texto para hacerlo visible sobre la imagen */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 30px 0; /* Espaciado superior e inferior para que haya suficiente espacio alrededor del texto */
+    font-size: 50px; /* Tamaño del texto */
+    font-weight: bold; /* Hace el texto más prominente */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para mejorar su legibilidad sobre la imagen */ 
+    margin: 0px;
+}
+
+
+.Familias .subtitle{
+    color: #5c94b4;
+    font-size: 40px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Familias .text{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.catalogos{
+    margin-left: 50px;
+    padding: 0;
+
+}
+
+.catalogos li {
+    margin-bottom: 10px; /* Ajusta el valor según el espacio que desees */
+}
+
+.catalogos li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal; /* Peso de fuente normal por defecto */
+    text-decoration: none; /* Sin subrayado en el enlace */
+    font-size: 20px;
+    color: #000000;
+}
+
+.catalogos li a:hover {
+    color: #55829c;
+    font-size: 22px;
+    font-weight: bold; /* Peso de fuente más fuerte al pasar el mouse */
+}
+
+.catCompleto{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+
+.catCompleto input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #5c94b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 20px; /* Añadimos espacio por encima del botón */
+}
+
+.catCompleto input[type="submit"]:hover {
+    background-color: #06466c;
+}
