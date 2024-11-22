@@ -1,4 +1,4 @@
-h4 {
+.part_menu {
     display: flex; /* Activa flexbox para organizar el contenido */
     align-items: center; /* Centra verticalmente texto e íconos */
     justify-content: space-between; /* Separa el texto y los íconos */
@@ -35,11 +35,11 @@ h4 {
 
 .menu {
     list-style: none; /* Elimina los puntos de las listas */
-    margin: 50;
+    margin: 10px;
     padding: 0;
     display: flex; /* Hace que los elementos estén en línea */
     justify-content: center; /* Centra el contenido horizontalmente */
-    gap: 180px; /* Espaciado entre los elementos */
+    gap: 150px; /* Espaciado entre los elementos */
 }
 
 .menu li {
@@ -49,8 +49,8 @@ h4 {
 .menu a {
     text-decoration: none; /* Elimina el subrayado */
     color: #333; /* Color del texto (ajústalo según tu diseño) */
-    font-size: 16px; /* Tamaño del texto */
-    font-weight: 300; /* Hace las letras delgadas */
+    font-size: 18px; /* Tamaño del texto */
+    font-weight: 300px; /* Hace las letras delgadas */
     transition: color 0.3s; /* Efecto suave al cambiar de color */
 }
 
