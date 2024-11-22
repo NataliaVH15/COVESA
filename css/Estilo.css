@@ -1,0 +1,29 @@
+h4 {
+    display: flex; /* Activa flexbox para organizar el contenido */
+    align-items: center; /* Centra verticalmente texto e íconos */
+    justify-content: space-between; /* Separa el texto y los íconos */
+    color: #ffffff;
+    background-color: #60b3e0d9;
+    font-size: 18px; /* Tamaño del texto */
+    font-weight: 300; /* Hace las letras delgadas */
+    width: 1510px;
+    height: 50px;
+    padding: 0 20px; /* Espaciado interno */
+    box-sizing: border-box; /* Incluye padding en las dimensiones */
+
+
+.social-icons {
+    margin-left: auto; /* Empuja los íconos completamente a la derecha */
+}
+
+.social-icons a {
+    color: #ffffff; /* Color de los íconos */
+    font-size: 20px; /* Tamaño de los íconos */
+    margin-left: 15px; /* Espaciado entre los íconos */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ffd700; /* Cambia el color al pasar el mouse */
+}
+
