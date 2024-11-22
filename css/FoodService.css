@@ -29,8 +29,8 @@ input[type="submit"]:hover {
     /*flex: 0 0 auto; /* Mantiene el tamaño de la imagen */
     width: 450px;
     height: 480px;
-    margin-top: 10%;
-    border: 15px solid #a8cce4;
+    margin: 5%;
+    border: 15px solid #5c94b4;
     border-radius: 10px;
 }
 
