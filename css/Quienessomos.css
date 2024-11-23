@@ -5,9 +5,48 @@ h1{
     background-position: center; /* Centra la imagen dentro del área del título */
     color: rgb(241, 234, 234); /* Color del texto para hacerlo visible sobre la imagen */
     text-align: center; /* Centra el texto horizontalmente */
-    padding: 50px 0; /* Espaciado superior e inferior para que haya suficiente espacio alrededor del texto */
-    font-size: 36px; /* Tamaño del texto */
+    padding: 30px 0; /* Espaciado superior e inferior para que haya suficiente espacio alrededor del texto */
+    font-size: 50px; /* Tamaño del texto */
     font-weight: bold; /* Hace el texto más prominente */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para mejorar su legibilidad sobre la imagen */   
-
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para mejorar su legibilidad sobre la imagen */ 
+    margin: 0px;
 }
+
+main{
+    display: block;
+}
+
+.container {
+    display: flex; /* Utiliza Flexbox para alinear los elementos */
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: flex-start; /* Alinea los elementos al inicio */
+}
+
+.queEs {
+    flex: 1; /* Permite que la sección ocupe el espacio disponible */
+    margin: 20px; /* Espacio entre la sección y la imagen */
+    width: 550px;
+    height: auto;
+}
+
+.imagen {
+    /*flex: 0 0 auto; /* Mantiene el tamaño de la imagen */
+    margin: 30px;
+    border: 12px solid #5c94b4;
+    border-radius: 10px;
+}
+
+h3{
+    margin: 40px 30px 30px 20px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #06466c;
+}
+
+#QuienesSomos{
+    font-size: 25px;
+    text-align: justify;
+    margin: 50px;
+    padding: 10px;
+}
+
