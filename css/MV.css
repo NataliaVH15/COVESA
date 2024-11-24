@@ -5,34 +5,44 @@ h1{
     background-position: center; /* Centra la imagen dentro del área del título */
     color: rgb(241, 234, 234); /* Color del texto para hacerlo visible sobre la imagen */
     text-align: center; /* Centra el texto horizontalmente */
-    padding: 50px 0; /* Espaciado superior e inferior para que haya suficiente espacio alrededor del texto */
-    font-size: 36px; /* Tamaño del texto */
+    padding: 30px 0; /* Espaciado superior e inferior para que haya suficiente espacio alrededor del texto */
+    font-size: 50px; /* Tamaño del texto */
     font-weight: bold; /* Hace el texto más prominente */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para mejorar su legibilidad sobre la imagen */   
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para mejorar su legibilidad sobre la imagen */ 
+    margin: 0px;
+}
+
+/***/
+section {
+    display: flex;
+    flex-direction: column; /* Asegura que los divs estén uno encima del otro */
+    width: 92%;
+    margin: 20px 50px 20px 50px;
+}
+
+.mision-container, .vision-container {
+    background-color: #a8cce4; /* Color celeste */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado entre los divs */
+    border-radius: 25px; /* Bordes redondeados (opcional) */
 
 }
 
-.mision-container {
-    display: flex; /* Coloca los elementos en una fila */
-    justify-content: flex-start; /* Alinea el contenido al principio (izquierda) */
-    align-items: center; /* Centra los elementos verticalmente */
-    background-color: #f4f4f4; /* Gris muy claro */
-    padding: 80px; /* Espaciado dentro del cuadro */
-    border-radius: 10px; /* Bordes redondeados */
-    margin-bottom: 20px; /* Espacio debajo del cuadro */
+h3 {
+    margin: 0; /* Elimina el margen del encabezado */
 }
 
-
-#Mision {
-    margin-bottom: 10px; /* Espacio debajo del título */
-    font-size: 24px;
-    font-weight: bold;
-    color: #333; /* Color oscuro para el título */
+#Vision, #Mision{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
 }
 
-/* Estilo para el párrafo */
-.mision-content p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333; /* Color oscuro para el texto */
+p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mision-container{
+    text-align: right;
 }
