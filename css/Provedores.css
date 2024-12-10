@@ -1,0 +1,21 @@
+.carousel {
+    background-color: #f8f9fa; /* Fondo claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+}
+
+.carousel-inner img {
+    border: 2px solid #ddd; /* Bordes para las imágenes */
+    transition: transform 0.3s ease; /* Animación al interactuar */
+}
+
+.carousel-inner img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Hace que los íconos sean visibles sobre fondos claros */
+}
+
