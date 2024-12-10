@@ -14,7 +14,7 @@ input[type="submit"]:hover {
 }
 
 
-.container {
+.containerFood {
     display: flex; /* Utiliza Flexbox para alinear los elementos */
     justify-content: space-between; /* Espacio entre los elementos */
     align-items: flex-start; /* Alinea los elementos al inicio */
@@ -107,4 +107,89 @@ input[type="submit"]:hover {
   
 .btnCatalogo:hover {
     background-color: #06466c;
+}
+
+
+/* Media Query para tabletas */
+@media (max-width: 1300px) and (min-width: 768px) {
+    .menu{
+        margin: 10px;
+        justify-content: center; /* Centra el contenido horizontalmente */
+        padding: 0.1rem;
+        margin-top: 1%;
+    }
+    .menu li a {
+        font-size: 16px;
+        font-weight: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .btnAyuda {
+        padding: 6px;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
+        font-size: 15px;
+    }
+    .Familias .subtitle{
+        font-size: 30px;
+    }
+    .Familias .text{
+        font-size: 22px;
+    }
+    .catalogos li a{
+        font-size: 18px;
+    }
+    .catCompleto h4{
+        font-size: 20px;
+    }
+    .btnCatalogo{
+        font-size: 20px;
+    }
+    .imagen{
+        width: 350px;
+        height: 400px;
+    }
+    .imagen img{
+        width: 350px;
+        height: 400px;
+    }
+}
+
+/* Media Query para móviles */
+@media (max-width: 768px) {
+    #centro img {
+        max-width: 90%; /* Asegura que la imagen sea responsiva */
+        height: auto; /* Mantiene la proporción de la imagen */
+        margin-bottom: 20px; /* Espacio entre la imagen y el botón */
+    }
+    .btnAyuda {
+        padding: 6px;   
+        border-radius: 50px;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
+        transition: background-color 0.3s ease;
+        font-size: 15px;
+    }
+    .Familias .subtitle{
+        font-size: 30px;
+    }
+    .Familias .text{
+        font-size: 20px;
+    }
+    .catalogos li a{
+        font-size: 18px;
+    }
+    .catCompleto h4{
+        font-size: 20px;
+    }
+    .btnCatalogo{
+        font-size: 20px;
+    }
+    .imagen{
+        display: none;
+    }
+    .title{
+        font-size: 35px; /* Tamaño del texto */
+    }
+    footer{
+        font-size: 12px;
+    }
 }

@@ -16,7 +16,7 @@ main{
     display: block;
 }
 
-.container {
+.containerQuienes {
     display: flex; /* Utiliza Flexbox para alinear los elementos */
     justify-content: space-between; /* Espacio entre los elementos */
     align-items: flex-start; /* Alinea los elementos al inicio */
@@ -50,3 +50,71 @@ h3{
     padding: 10px;
 }
 
+/* Media Query para tabletas */
+@media (max-width: 1300px) and (min-width: 768px) {
+    .menu{
+        margin: 10px;
+        justify-content: center; /* Centra el contenido horizontalmente */
+        padding: 0.1rem;
+        margin-top: 1%;
+    }
+    .menu li a {
+        font-size: 16px;
+        font-weight: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .btnAyuda {
+        padding: 6px;   
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
+        font-size: 15px;
+    }
+    h3{
+        margin: 15px;
+        font-size: 25px;
+    }
+    #QuienesSomos{
+        font-size: 20px;
+        margin: 30px;
+        padding: 5px;
+    }
+    .imagen {
+        margin: 20px;
+        border: none;
+    }
+    .imagen img{
+        width: 90%;
+    }
+}
+
+/* Media Query para móviles */
+@media (max-width: 768px) {
+    #centro img {
+        max-width: 90%; /* Asegura que la imagen sea responsiva */
+        height: auto; /* Mantiene la proporción de la imagen */
+        margin-bottom: 20px; /* Espacio entre la imagen y el botón */
+    }
+    .btnAyuda {
+        padding: 6px;   
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
+        font-size: 15px;
+    }
+    h3{
+        margin: 15px;
+        font-size: 25px;
+    }
+    #QuienesSomos{
+        font-size: 20px;
+        margin: 30px;
+        padding: 5px;
+    }
+    .imagen {
+        display: none;
+    }
+    h1{
+        font-size: 35px; /* Tamaño del texto */
+    }
+    footer{
+        font-size: 15px;
+    }
+}
