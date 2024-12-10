@@ -13,7 +13,7 @@ h1{
 }
 
 /***/
-.container{
+.contenedorMV{
     margin-top: 30px ;
     justify-content: center;
 }
@@ -35,11 +35,76 @@ h3 {
     color: #5c94b4;
 }
 
-p{
+.contenedorMV p{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .mision-container{
     text-align: right;
+}
+
+/* Media Query para tabletas */
+@media (max-width: 1300px) and (min-width: 768px) {
+    .menu{
+        margin: 10px;
+        padding: 0.1rem;
+        margin-top: 1%;
+    }
+    .menu li a {
+        font-size: 16px;
+        font-weight: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .btnAyuda {
+        padding: 6px;   
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
+        font-size: 15px;
+    }
+    .mision-container, .vision-container {
+        border: 15px solid #94c7e4; /* Color celeste */
+    }
+    #Vision, #Mision{
+        margin-top: 40px;
+        font-size: 35px;
+
+    }
+    .contenedorMV p{
+        font-size: 18px;
+    }
+    .contenedorMV img{
+        width: 200px;
+    }
+}
+
+/* Media Query para móviles */
+@media (max-width: 768px) {
+    .btnAyuda {
+        padding: 6px;   
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
+        font-size: 15px;
+    }
+    h1{
+        font-size: 35px; /* Tamaño del texto */
+    }
+    .mision-container, .vision-container {
+        border: 15px solid #94c7e4; /* Color celeste */
+    }
+    #Vision, #Mision{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .contenedorMV p{
+        text-align: center;
+        font-size: 18px;
+    }
+    .contenedorMV img{
+        margin: 55px;
+        width: 220px;
+    }
+    footer{
+        font-size: 15px;
+    }
 }
