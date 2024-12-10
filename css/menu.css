@@ -49,6 +49,8 @@
     font-weight: 300px; /* Hace las letras delgadas */
     transition: color 0.3s; /* Efecto suave al cambiar de color */
     display: block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .menu li a:hover {

@@ -13,19 +13,15 @@ h1{
 }
 
 /***/
-section {
-    display: flex;
-    flex-direction: column; /* Asegura que los divs estén uno encima del otro */
-    width: 92%;
-    margin: 20px 50px 20px 50px;
+.container{
+    margin-top: 30px ;
+    justify-content: center;
 }
-
 .mision-container, .vision-container {
-    background-color: #a8cce4; /* Color celeste */
+    border: 30px solid #94c7e4; /* Color celeste */
     padding: 20px; /* Espaciado interno */
     margin: 10px 0; /* Espaciado entre los divs */
-    border-radius: 25px; /* Bordes redondeados (opcional) */
-
+    border-radius: 50px; /* Bordes redondeados (opcional) */
 }
 
 h3 {
@@ -33,9 +29,10 @@ h3 {
 }
 
 #Vision, #Mision{
-    font-size: 35px;
+    margin-top: 50px;
+    font-size: 45px;
     font-family: 'Times New Roman', Times, serif;
-    color: #ffffff;
+    color: #5c94b4;
 }
 
 p{

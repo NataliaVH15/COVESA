@@ -25,6 +25,20 @@ h2{
 
 }
 
+/****/
+main{
+    justify-content: center;
+}
+.carousel{
+    width: 750px;
+    margin-left: 38rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.carousel-caption{
+    background-color: #5c94b467;
+}
+/*****/
 .container {
     display: flex; /* Activa flexbox para alinear los elementos horizontalmente */
     justify-content: space-between; /* Espaciado entre los elementos */
