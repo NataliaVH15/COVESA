@@ -1,38 +1,45 @@
 h1{
     position: relative; /* Necesario para que podamos poner el texto sobre la imagen */
-    background-image: url('../imagenes/Imagen6.jpg'); /* Ruta de la imagen de fondo */
+    background-image: url('../prueba/header.jpeg'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Asegura que la imagen cubra todo el área del título */
     background-position: center; /* Centra la imagen dentro del área del título */
-    color: rgb(241, 234, 234); /* Color del texto para hacerlo visible sobre la imagen */
+    color: rgb(255, 255, 255); /* Color del texto para hacerlo visible sobre la imagen */
     text-align: center; /* Centra el texto horizontalmente */
-    padding: 50px 0; /* Espaciado superior e inferior para que haya suficiente espacio alrededor del texto */
-    font-size: 36px; /* Tamaño del texto */
+    padding: 30px 0; /* Espaciado superior e inferior para que haya suficiente espacio alrededor del texto */
+    font-size: 50px; /* Tamaño del texto */
     font-weight: bold; /* Hace el texto más prominente */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para mejorar su legibilidad sobre la imagen */   
-
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para mejorar su legibilidad sobre la imagen */ 
+    margin: 0px;
 }
 
-.mision-container {
-    display: flex; /* Coloca los elementos en una fila */
-    justify-content: flex-start; /* Alinea el contenido al principio (izquierda) */
-    align-items: center; /* Centra los elementos verticalmente */
-    background-color: #f4f4f4; /* Gris muy claro */
-    padding: 80px; /* Espaciado dentro del cuadro */
-    border-radius: 10px; /* Bordes redondeados */
-    margin-bottom: 20px; /* Espacio debajo del cuadro */
+/***/
+.container{
+    margin-top: 30px ;
+    justify-content: center;
+}
+.mision-container, .vision-container {
+    border: 30px solid #94c7e4; /* Color celeste */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px 0; /* Espaciado entre los divs */
+    border-radius: 50px; /* Bordes redondeados (opcional) */
 }
 
-
-#Mision {
-    margin-bottom: 10px; /* Espacio debajo del título */
-    font-size: 24px;
-    font-weight: bold;
-    color: #333; /* Color oscuro para el título */
+h3 {
+    margin: 0; /* Elimina el margen del encabezado */
 }
 
-/* Estilo para el párrafo */
-.mision-content p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333; /* Color oscuro para el texto */
+#Vision, #Mision{
+    margin-top: 50px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5c94b4;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mision-container{
+    text-align: right;
 }

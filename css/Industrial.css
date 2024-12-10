@@ -1,14 +1,15 @@
 h1{
     position: relative; /* Necesario para que podamos poner el texto sobre la imagen */
-    background-image: url('../imagenes/Imagen6.jpg'); /* Ruta de la imagen de fondo */
+    background-image: url('../prueba/header.jpeg'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Asegura que la imagen cubra todo el área del título */
     background-position: center; /* Centra la imagen dentro del área del título */
-    color: rgb(241, 234, 234); /* Color del texto para hacerlo visible sobre la imagen */
+    color: rgb(255, 255, 255); /* Color del texto para hacerlo visible sobre la imagen */
     text-align: center; /* Centra el texto horizontalmente */
-    padding: 50px 0; /* Espaciado superior e inferior para que haya suficiente espacio alrededor del texto */
-    font-size: 36px; /* Tamaño del texto */
+    padding: 30px 0; /* Espaciado superior e inferior para que haya suficiente espacio alrededor del texto */
+    font-size: 50px; /* Tamaño del texto */
     font-weight: bold; /* Hace el texto más prominente */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para mejorar su legibilidad sobre la imagen */   
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para mejorar su legibilidad sobre la imagen */ 
+    margin: 0px;
 }
 
 h3{
@@ -24,6 +25,20 @@ h2{
 
 }
 
+/****/
+main{
+    justify-content: center;
+}
+.carousel{
+    width: 750px;
+    margin-left: 38rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.carousel-caption{
+    background-color: #5c94b467;
+}
+/*****/
 .container {
     display: flex; /* Activa flexbox para alinear los elementos horizontalmente */
     justify-content: space-between; /* Espaciado entre los elementos */
@@ -38,7 +53,7 @@ h2{
     padding: 50px; /* Espaciado interno */
     width: 45%; /* Ajusta el tamaño de cada contenedor para que se alineen uno al lado del otro */
     text-align: center; /* Centra el texto y la imagen dentro del contenedor */
-    margin: 0 50px; /* Espaciado entre los contenedores */
+    margin: 15px 50px; /* Espaciado entre los contenedores */
     
 }
 
