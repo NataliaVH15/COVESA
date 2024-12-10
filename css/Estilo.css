@@ -1,6 +1,6 @@
 
 #Inicio {
-    background-image: url('../imagenes/Imagen5.jpg'); 
+    background-image: url('../prueba/fondo\ 3.avif'); 
     background-size: 100% 80%; /* Imagen cubriendo el 50% del ancho y 50% de la altura */
     background-position: center center; /* Centra la imagen */
     background-repeat: no-repeat; /* No repetir la imagen */
@@ -46,37 +46,4 @@
 }
 
 
-footer {
-    display: flex; /* Usamos flexbox para alinear los elementos */
-    justify-content: space-around; /* Distribuye los elementos de manera uniforme */
-    align-items: center; /* Alinea los elementos verticalmente */
-    background-color: #5c94b4; /* Fondo suave para el pie de página */
-    padding: 30px 0; /* Espaciado arriba y abajo */
-    margin-top: 50px; /* Espacio entre el contenido principal y el pie de página */
-}
 
-footer .contact {
-    text-align: center; /* Centra los textos dentro de cada div */
-    max-width: 300px; /* Define un tamaño máximo para cada columna */
-}
-
-footer .contact img {
-    width: 50px; /* Tamaño fijo para las imágenes */
-    height: 50px;
-    margin-bottom: 10px; /* Espacio debajo de la imagen */
-}
-
-footer p {
-    margin: 5px 0; /* Añade un pequeño margen entre los párrafos */
-    color: #ffffff;
-}
-
-footer a {
-    color: #ffffff; /* Color del enlace */
-    text-decoration: none; /* Elimina el subrayado */
-    font-weight: bold;
-}
-
-footer a:hover {
-    text-decoration: underline; /* Subraya el enlace al pasar el ratón */
-}

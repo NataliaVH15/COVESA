@@ -36,10 +36,10 @@ input[type="submit"]:hover {
 
 .title{
     position: relative; /* Necesario para que podamos poner el texto sobre la imagen */
-    background-image: url('../imagenes/foodserv.jpeg'); /* Ruta de la imagen de fondo */
+    background-image: url('../prueba/header.jpeg'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Asegura que la imagen cubra todo el área del título */
     background-position: center; /* Centra la imagen dentro del área del título */
-    color: rgb(241, 234, 234); /* Color del texto para hacerlo visible sobre la imagen */
+    color: rgb(255, 255, 255); /* Color del texto para hacerlo visible sobre la imagen */
     text-align: center; /* Centra el texto horizontalmente */
     padding: 30px 0; /* Espaciado superior e inferior para que haya suficiente espacio alrededor del texto */
     font-size: 50px; /* Tamaño del texto */
@@ -82,7 +82,7 @@ input[type="submit"]:hover {
 }
 
 .catalogos li a:hover {
-    color: #55829c;
+    color: #3489b9;
     font-size: 22px;
     font-weight: bold; /* Peso de fuente más fuerte al pasar el mouse */
 }
@@ -93,17 +93,18 @@ input[type="submit"]:hover {
     margin-left: 10px;
 }
 
-.catCompleto input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #5c94b4;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 30px;
-    cursor: pointer;
-    margin-top: 20px; /* Añadimos espacio por encima del botón */
-}
 
-.catCompleto input[type="submit"]:hover {
+.btnCatalogo {
+    font-size: 25px;
+    background-color: #5c94b4;
+    padding: 10px;   
+    border: none;
+    color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
+    transition: background-color 0.3s ease;
+}
+  
+.btnCatalogo:hover {
     background-color: #06466c;
 }
