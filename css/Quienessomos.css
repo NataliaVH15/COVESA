@@ -85,6 +85,14 @@ h3{
     .imagen img{
         width: 90%;
     }
+    .part_menu {
+        font-size: 20px; /* Tamaño del texto */
+        font-weight: 300; /* Hace las letras delgadas */
+        width: 1250px;
+    }
+    .social-icons {
+        margin-left: 20px; /* Empuja los íconos completamente a la derecha */
+    }
 }
 
 /* Media Query para móviles */
@@ -116,5 +124,13 @@ h3{
     }
     footer{
         font-size: 15px;
+    }
+    .part_menu {
+        font-size: 14px; /* Tamaño del texto */
+        font-weight: 300; /* Hace las letras delgadas */
+        width: 500px;
+    }
+    .social-icons {
+        margin-left: 20px; /* Empuja los íconos completamente a la derecha */
     }
 }

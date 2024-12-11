@@ -152,6 +152,14 @@ input[type="submit"]:hover {
         width: 350px;
         height: 400px;
     }
+    .part_menu {
+        font-size: 20px; /* Tamaño del texto */
+        font-weight: 300; /* Hace las letras delgadas */
+        width: 1250px;
+    }
+    .social-icons {
+        margin-left: 20px; /* Empuja los íconos completamente a la derecha */
+    }
 }
 
 /* Media Query para móviles */
@@ -191,5 +199,13 @@ input[type="submit"]:hover {
     }
     footer{
         font-size: 12px;
+    }
+    .part_menu {
+        font-size: 14px; /* Tamaño del texto */
+        font-weight: 300; /* Hace las letras delgadas */
+        width: 480px;
+    }
+    .social-icons {
+        margin-left: 20px; /* Empuja los íconos completamente a la derecha */
     }
 }
