@@ -169,11 +169,11 @@ h2{
         font-size: 12px;
     }
     .part_menu {
-        font-size: 14px; /* Tamaño del texto */
+        font-size: 10px; /* Tamaño del texto */
         font-weight: 300; /* Hace las letras delgadas */
         width: 480px;
     }
     .social-icons {
-        margin-left: 20px; /* Empuja los íconos completamente a la derecha */
+        margin-left: 10px; /* Empuja los íconos completamente a la derecha */
     }
 }
