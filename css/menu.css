@@ -1,5 +1,4 @@
 .part_menu {
-    display: flex; /* Activa flexbox para organizar el contenido */
     align-items: center; /* Centra verticalmente texto e íconos */
     justify-content: space-between; /* Separa el texto y los íconos */
     color: #ffffff;
@@ -13,7 +12,7 @@
 
 }
 .social-icons {
-    margin-left: auto; /* Empuja los íconos completamente a la derecha */
+    margin-left: 50px; /* Empuja los íconos completamente a la derecha */
 }
 
 .social-icons a {

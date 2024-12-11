@@ -79,6 +79,20 @@
         box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
         font-size: 15px;
     }
+    .part_menu {
+        display: flex; /* Activa flexbox para organizar el contenido */
+        align-items: center; /* Centra verticalmente texto e íconos */
+        justify-content: space-between; /* Separa el texto y los íconos */
+        color: #ffffff;
+        background-color: #5c94b4;
+        font-size: 18px; /* Tamaño del texto */
+        font-weight: 300; /* Hace las letras delgadas */
+        width: 1907px;
+        height: 50px;
+        padding: 0 10px; /* Espaciado interno */
+        box-sizing: border-box; /* Incluye padding en las dimensiones */
+    
+    }
     footer{
         font-size: 15px;
     }
